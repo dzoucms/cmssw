@@ -19,7 +19,7 @@ b2gDimuonHLTOfflineDQM.preselection.trigger.select = cms.vstring(['HLT_Mu37_TkMu
 
 
 b2gMonitorHLT = cms.Sequence(
-    b2gDileptonHLTOfflineDQM*
-    b2gDimuonHLTOfflineDQM
+    b2gDileptonHLTOfflineDQM
+    + b2gDimuonHLTOfflineDQM
 
 )
